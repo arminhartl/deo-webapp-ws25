@@ -26,6 +26,6 @@ jobs:
         uses: actions/upload-artifact@v5
         with:
           name: build
-          path:
+          path: |
             **/bin/
             **/obj/
