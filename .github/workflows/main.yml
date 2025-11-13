@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 
 jobs:
   build:
-    run-on: self-hosted
+    runs-on: self-hosted
     env: 
       DOTNET_INSTALL_DIR: /home/actions-runner/dotnet
     steps:
