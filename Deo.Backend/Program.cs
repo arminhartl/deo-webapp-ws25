@@ -36,4 +36,3 @@ async Task<string> ResetCounter(ILogger<Program> logger)
 }
 
 await app.RunAsync();
-//test
